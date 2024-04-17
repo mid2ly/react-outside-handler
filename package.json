@@ -1,0 +1,47 @@
+{
+  "name": "react-outside-handler",
+  "description": "React library for detecting events outside of element",
+  "version": "1.0.3",
+  "author": {
+    "name": "Middly",
+    "email": "me@middly.sh",
+    "url": "https://middly.sh"
+  },
+  "homepage": "https://github.com/mid2ly/react-outside-handler",
+  "bugs": {
+    "url": "https://github.com/mid2ly/react-outside-handler/issues",
+    "email": "me@middly.sh"
+  },
+  "license": "MIT",
+  "main": "dist/index.js",
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@types/react": "^18.2.79",
+    "react-scripts": "^5.0.1",
+    "typescript": "^4.9.5"
+  },
+  "peerDependencies": {
+    "react": "^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0"
+  },
+  "scripts": {
+    "prepublishOnly": "npm run build",
+    "build": "tsc",
+    "test": "react-scripts test"
+  },
+  "exports": {
+    "import": "./dist/index.js",
+    "require": "./dist/index.js",
+    "types": "./dist/index.d.ts"
+  },
+  "types": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mid2ly/react-outside-handler.git"
+  },
+  "keywords": [
+    "outside",
+    "useOutsideHandler"
+  ]
+}
