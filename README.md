@@ -1,7 +1,8 @@
 # react-outside-handler
 
-[![NPM License](https://img.shields.io/npm/l/react-outside-handler)](https://github.com/mid2ly/react-outside-handler/blob/main/LICENSE)
+[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/mid2ly/react-outside-handler/node.js.release.yml)](https://github.com/mid2ly/react-outside-handler/actions/workflows/node.js.release.yml)
 [![NPM Version](https://img.shields.io/npm/v/react-outside-handler)](https://www.npmjs.com/package/react-outside-handler)
+[![NPM License](https://img.shields.io/npm/l/react-outside-handler)](https://github.com/mid2ly/react-outside-handler/blob/main/LICENSE)
 
 React library for detecting events outside of element
 
